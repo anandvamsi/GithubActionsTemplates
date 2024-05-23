@@ -29,8 +29,9 @@ jobs:
 
 
 
-```
+```bash
 Notes
 - It then runs security scanning using the github/codeql-action action, which performs static code analysis to detect security vulnerabilities.
 - The languages parameter specifies the languages to analyze (JavaScript and Java in this example).
 - Finally, it runs security tests using a specified command (npm run security-tests in this example, adjust as needed for your project).
+```
