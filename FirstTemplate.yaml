@@ -1,0 +1,22 @@
+name: Workflow Name
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  job-name:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    # Add your job steps here
+    - name: Step 1
+      run: echo "Hello, world!"
+      
+    - name: Step 2  
+      run: echo "This is step 2"
